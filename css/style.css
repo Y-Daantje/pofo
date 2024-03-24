@@ -1,0 +1,284 @@
+* {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: "Public Sans", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/* landing page */
+.landing-page {
+    display: grid;
+    grid-template-columns: 35vw 65vw;
+    grid-template-rows: 20vh 15vh 65vh;
+    z-index: 8888;
+    background: linear-gradient(130deg, rgb(11, 5, 13),
+            rgb(43, 41, 37),
+            rgb(51, 41, 54),
+            rgb(57, 57, 55));
+    ;
+    color: #fff;
+}
+
+.img {
+    grid-row: span 3;
+    overflow: hidden;
+}
+
+.img img {
+    width: 35vw;
+    height: 97vh;
+    border-radius: 7%;
+}
+
+
+.tb {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7rem;
+    padding: 20px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.ft {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10rem;
+    padding-right: 30px;
+    padding-top: 60px;
+    overflow: hidden;
+    /* margin-bottom: 50px; */
+}
+
+/* about me */
+section.about-me {
+    display: grid;
+    grid-template-columns: 55vw 45vw;
+    grid-template-rows: 25vh 78vh;
+    z-index: 8888;
+    background: linear-gradient(380deg, rgb(57, 57, 55),
+            rgb(26, 19, 33),
+            rgb(57, 57, 55),
+            rgb(57, 57, 55));
+    ;
+    color: #fff;
+}
+
+section.about-me>header {
+    grid-column: 65vw 35vw;
+    font-size: 6rem;
+    /* padding: 10px; */
+    /* gap: 130px; */
+    margin-top: 40px;
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle1 {
+    font-size: 1.9rem;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+
+section.about-me>.img1 {
+    width: 55vw;
+    height: 75vh;
+    background-image: url(/img/image.png);
+    /*foto van me zelf*/
+    background-repeat: no-repeat;
+
+}
+
+section.about-me>.text {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-size: 2rem;
+}
+
+/* ervaring */
+section.ervaring {
+    display: grid;
+    grid-template-columns: 65vw 35vw;
+    grid-template-rows: 25vh 55vh 27vh;
+    z-index: 8888;
+    background: linear-gradient(rgb(27, 27, 3),
+            rgb(5, 30, 37),
+            rgb(27, 27, 3));
+    color: #fff;
+}
+
+section.ervaring>header {
+    grid-column: 65vw 35vw;
+    font-size: 6rem;
+    /* padding: 10px; */
+    /* gap: 130px; */
+    margin-top: 30px;
+    /* grid-column: span 2; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+section.ervaring>.img1 {
+    width: 55vw;
+    height: 75vh;
+    grid-row: span 2;
+    margin-top: 30px;
+    background-image: url(/img/escaperoom\ 2023-12-21\ 195519.png);
+    background-repeat: no-repeat;
+}
+
+section.ervaring>.img-2 {
+    width: 64vw;
+    height: 50vh;
+    margin-top: 40px;
+    background-image: url(/img/hoger-lager\ 2023-12-21\ 195626.png);
+    background-repeat: no-repeat;
+}
+
+section.ervaring>.text-1 {
+    margin-top: 10px;
+    margin-left: 13px;
+    font-size: 3.7rem;
+
+}
+
+section.ervaring>.text-2 {
+    margin-top: 10px;
+    font-size: 3.7rem;
+}
+
+.name-pro-1 {
+    font-size: 2rem;
+}
+
+.namee-pro-1 {
+    font-size: 1.2rem;
+
+}
+
+/* ervarnig 2 */
+
+section.ervaring-2 {
+    display: grid;
+    grid-template-columns: 45vw 55vw;
+    grid-template-rows: 50vh 50vh;
+    /* z-index: 8888; */
+    background: linear-gradient(rgb(27, 27, 3),
+            rgb(5, 30, 37),
+            rgb(27, 27, 3));
+    color: #fff;
+}
+
+section.ervaring-2>.img1 {
+    width: 30vw;
+    height: 45vh;
+    margin-top: 40px;
+    margin-left: 70px;
+    background-image: url(/img/Screenshot\ 2024-03-24\ 032359\ streaming.png);
+    background-repeat: no-repeat;
+}
+
+section.ervaring-2>.img-2 {
+    width: 50vw;
+    height: 60vh;
+    margin-top: 140px;
+    background-image: url(/img/Screenshot\ 2023-12-21\ 195342\ 4.png);
+    background-repeat: no-repeat;
+}
+
+section.ervaring-2>.text-2 {
+    font-size: 3rem;
+}
+
+section.ervaring-2>.text-3 {
+    margin-top: 210px;
+    font-size: 3rem;
+}
+
+/* ervaring 3 */
+section.ervaring-3 {
+    display: grid;
+    grid-template-columns: 55vw 45vw;
+    grid-template-rows: 35vh 65vh;
+    /* z-index: 8888; */
+    background: linear-gradient(rgb(27, 27, 3),
+            rgb(5, 30, 37),
+            rgb(27, 27, 3));
+    color: #fff;
+}
+
+section.ervaring-3>.img1 {
+    width: 40vw;
+    height: 90vh;
+    /* margin-right: 40px; */
+    /* margin-top: 60px; */
+    margin-top: 40px;
+    background-image: url(/img/Screenshot\ 2024-03-24\ 033409.png);
+    /* background-repeat: no-repeat; */
+}
+
+section.ervaring-3>.text-3 {
+    /* margin-top: 210px; */
+    font-size: 3rem;
+    margin-top: 40px;
+}
+
+.namee-proo-1 {
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+
+
+/* contact */
+section.contact {
+    display: grid;
+    grid-template-columns: 30vw 70vw;
+    grid-template-rows: 65vh 35vh;
+    /* z-index: 8888; */
+    background: linear-gradient(rgb(27, 27, 3),
+            rgb(5, 30, 37),
+            rgb(27, 27, 3));
+    color: #fff;
+}
+
+section.contact>header {
+    font-size: 6rem;
+    margin-top: 40px;
+    display: flex;
+    margin-left: 40px;
+}
+
+
+section.contact>.img1 {
+    width: 80vw;
+    height: 90vh;
+    margin-right: 50px;
+    margin-top: 60px;
+    background-image: url(/img/Screenshot_20221206_101429.png);
+    background-repeat: no-repeat;
+
+}
+
+section.contact>.text-contact {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-size: 1.1rem;
+    margin-left: 30px;
+    margin-top: 90px;
+
+}
+
+.Contact-SocialMedia {
+    margin-bottom: 40px;
+}
