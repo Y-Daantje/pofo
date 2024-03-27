@@ -90,7 +90,7 @@ section.about-me>header {
 section.about-me>.img1 {
     width: 55vw;
     height: 75vh;
-    background-image: url(/img/image.png);
+    /* background-image: url(/img/image.png); */
     /*foto van me zelf*/
     background-repeat: no-repeat;
 
@@ -132,7 +132,7 @@ section.ervaring>.img1 {
     height: 75vh;
     grid-row: span 2;
     margin-top: 30px;
-    background-image: url(/img/escaperoom\ 2023-12-21\ 195519.png);
+    /* background-image: url(/img/escaperoom\ 2023-12-21\ 195519.png); */
     background-repeat: no-repeat;
 }
 
@@ -140,7 +140,7 @@ section.ervaring>.img-2 {
     width: 64vw;
     height: 50vh;
     margin-top: 40px;
-    background-image: url(/img/hoger-lager\ 2023-12-21\ 195626.png);
+    /* background-image: url(/img/hoger-lager\ 2023-12-21\ 195626.png); */
     background-repeat: no-repeat;
 }
 
@@ -183,7 +183,7 @@ section.ervaring-2>.img1 {
     height: 45vh;
     margin-top: 40px;
     margin-left: 70px;
-    background-image: url(/img/Screenshot\ 2024-03-24\ 032359\ streaming.png);
+    /* background-image: url(/img/Screenshot\ 2024-03-24\ 032359\ streaming.png); */
     background-repeat: no-repeat;
 }
 
@@ -191,7 +191,7 @@ section.ervaring-2>.img-2 {
     width: 50vw;
     height: 60vh;
     margin-top: 140px;
-    background-image: url(/img/Screenshot\ 2023-12-21\ 195342\ 4.png);
+    /* background-image: url(/img/Screenshot\ 2023-12-21\ 195342\ 4.png); */
     background-repeat: no-repeat;
 }
 
@@ -222,7 +222,7 @@ section.ervaring-3>.img1 {
     /* margin-right: 40px; */
     /* margin-top: 60px; */
     margin-top: 40px;
-    background-image: url(/img/Screenshot\ 2024-03-24\ 033409.png);
+    /* background-image: url(/img/Screenshot\ 2024-03-24\ 033409.png); */
     /* background-repeat: no-repeat; */
 }
 
@@ -263,7 +263,7 @@ section.contact>.img1 {
     height: 90vh;
     margin-right: 50px;
     margin-top: 60px;
-    background-image: url(/img/Screenshot_20221206_101429.png);
+    /* background-image: url(/img/Screenshot_20221206_101429.png); */
     background-repeat: no-repeat;
 
 }
@@ -281,4 +281,100 @@ section.contact>.text-contact {
 
 .Contact-SocialMedia {
     margin-bottom: 40px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background: linear-gradient(65deg, rgb(27, 27, 3),
+            rgb(5, 30, 37),
+            rgb(27, 27, 3));
+}
+
+.contact-from {
+    width: 450px;
+    height: 550px;
+    padding: 10px;
+    border: 2px solid #000000;
+    background: linear-gradient(380deg, rgb(57, 57, 55),
+    rgb(26, 19, 33),
+    rgb(57, 57, 55),
+    rgb(57, 57, 55));
+}
+
+.contact-form form {
+    display: block;
+}
+
+.message {
+    display: none;
+}
+
+input[type="text"],
+select,
+textarea,
+.form-email {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    resize: none;
+}
+
+.submit-btn {
+    background: linear-gradient(60deg, rgb(57, 57, 55),
+    rgb(26, 19, 33),
+    rgb(57, 57, 55),
+    rgb(57, 57, 55));
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    font-size: large;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #091d0a;
+}
+
+.location {
+    width: 550px;
+    height: 350px;
+    border: 2px solid #3d0c5e;
+    background-color: rgb(8, 8, 45);
+    overflow: hidden;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(186deg,
+    rgb(27, 27, 3),
+    rgb(5, 30, 37),
+    rgb(27, 27, 3));
+    height: 200px;
+    width: 100%;
+    color: #fff;
+}
+
+footer img {
+    width: 150px;
 }
